@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+/* ==========================================
+   CSS Reset
+========================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* ==========================================
+   Root Variables
+========================================== */
+
+:root{
+
+    --primary:#6C3BFF;
+    --background:#F5F7FB;
+    --white:#FFFFFF;
+    --text:#1E293B;
+    --border:#E5E7EB;
+
+    font-family:"Inter",sans-serif;
+
+}
+
+/* ==========================================
+   Body
+========================================== */
+
+body{
+
+    background:var(--background);
+
+    color:var(--text);
+
+    font-family:"Inter",sans-serif;
+
+}
+
+/* ==========================================
+   Root
+========================================== */
+
+#root{
+
+    width:100%;
+
+    min-height:100vh;
+
+}
